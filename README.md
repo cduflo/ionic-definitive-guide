@@ -12,3 +12,10 @@ Then clone this repo and start a local preview of the codebase.
     cd ionic-definitive-guide
     npm install
     ionic serve
+
+To host on Heroku:
+  Specify node version in package.json:
+    "engines": {
+    "node": "5.12.0"
+    }
+  https://devdactic.com/deploying-ionic-to-heroku/
